@@ -1,0 +1,56 @@
+h1, h2 {
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.toggle-row {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+}
+
+.toggle {
+    width: 7vw;
+    height: 7vw;
+    margin: 5px;
+    box-shadow: 5px 5px 5px black;
+    border: 1px solid black;
+    background-color: antiquewhite;
+}
+
+.mini-board {
+    display: flex;
+    flex-direction: column;
+}
+
+.mini-row {
+    display: flex;
+}
+
+.mini-square {
+    height: 1vw;
+    width: 1vw;
+    border: 1px solid black;
+    background-color: antiquewhite;
+} 
+
+.dark {
+    background-color: rgb(104, 92, 76);
+}
+
+#indicator-container {
+    display: flex;
+    flex-direction: column;
+    margin-right: 25px;
+}
+
+.indicator {
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px black;
+    margin: 5px;
+    padding: 3px;
+}
